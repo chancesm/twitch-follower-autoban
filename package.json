@@ -1,0 +1,24 @@
+{
+  "name": "twitch-follower-autoban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chancesm/twitch-follower-autoban.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chancesm/twitch-follower-autoban/issues"
+  },
+  "homepage": "https://github.com/chancesm/twitch-follower-autoban#readme",
+  "devDependencies": {
+    "electron": "^15.0.0"
+  }
+}
