@@ -20,5 +20,8 @@
   "homepage": "https://github.com/chancesm/twitch-follower-autoban#readme",
   "devDependencies": {
     "electron": "^15.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.0.1"
   }
 }

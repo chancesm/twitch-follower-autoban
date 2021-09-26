@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+  </head>
+  <body>
+    <h1>You are not logged in!</h1>
+    <p>Click below to Log In with Twitch</p>
+    <button id='twitch'>Twitch Login</button>
+    <script>
+      const button = document.getElementById('twitch')
+      const {ipcRenderer} = require('electron')
+
+      button.addEventListener('click', () => {
+        console.log('twitch button clicked')
+        ipcRenderer.send('twitch-login')
+      })
+    </script>
+  </body>
+</html>
